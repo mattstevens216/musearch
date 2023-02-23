@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(#8cdfff, #708fff);
+	height: 100%
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+header{
+	font-size: 30px;
+	color: #cdeaff;
+	text-shadow: 2px 2px 2px #000000;
+	text-align: center;
+	margin-top: 10%;
+}
+form{
+	margin: 0 auto;
+	padding: 0px 30%
+}
+.search {
+	background: linear-gradient(#99c8e5, #71a0bd);
+	height: 30px;
+	width: 300px;
+}
+.rounded {
+	border-radius: 8px;
+}
+::-webkit-input-placeholder { /* For Chrome */
+	color: #bfdff6;
+	padding: 6px;
+}
+::-ms-input-placeholder { /* For IE 10+ */
+	color: #bfdff6;
+}
+::-moz-placeholder { /* For Firefox 19+ */
+	color: #bfdff6;
+	opacity: 1;
+}
+::-moz-placeholder { /* For Firefox 4 - 18 */
+	color: #bfdff6;
+	opacity: 1;
+}
+input[type=text]{
+	color:#bfdff6;
+}
+.searchbox {
+	width: 95%;
+	height: 50px;
+	padding: 40px 25px;
+}
